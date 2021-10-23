@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Mukta,sans-serif;
+}
+header{
+    background-image: url(../images/spaghetti-1932466__480.jpg);
+    height: 100vh;
+    opacity: 0.9;
+
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: chartreuse;
+    flex-wrap: wrap;
+    margin-top: 250px;
+}
+nav.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+nav ul li{
+    margin: 0px 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: lime;
+}
+nav li a:hover{
+    color: linen;
+}
+nav content{
+    color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+nav button{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: darkorange;
+    font-size: 1.25em;
+
+}
+nav button:hover{
+    background-color: gold;
+    cursor: pointer;
+
+}
+.middle{
+    display:flex;
+    margin:20px 0px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cyan;
+}
+.middle h3{
+    font-size:1.30em;
+    color: darkmagenta;
+
+}
+.middle h4{
+font-size: 1.25em;
+color: darkmagenta;
+
+}
+.middle h4{
+    font-size:1.20em;
+    color: darkmagenta;
+}
+
+
+.middle .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px crimson;
+}
+.head{
+    text-align: center;
+    margin-top: 200;
+    color:black;
+    font-size: 3em;
+}
+.middle.video{
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+ 
+
+}
+.blog{
+    display:flex;
+    flex-direction: column;
+    height: 200px;
+    border-left: 2px solid blue;
+    margin:20px;
+    box-shadow: 0px 0px 10px blue;
+    padding-left: 10px;
+    justify-content: space-evenly;
+    
+}
+.blog.title{
+    font-size: 3em;
+    color: crimson;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.blog.date{
+    font-size: 1.25em;
+    font-weight: 500;
+    color: darkgreen;
+}
+.blog.content{
+    border-top: 1px solid hotpink;
+    text-align: justify;
+    padding-right: 20ppx;
+}
+.contact{
+    display:flex;
+    padding: 30px;
+    height: 400px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.contact.left{
+    flex-grow: 1;
+
+}
+.contact.right{
+    flex-grow: 1;
+}
+.contact.right input{
+    width: 100%;
+    height:35px;
+
+}
+.contact.right.button{
+    width: 100%;
+    height: 35px;
+    background-color: cornflowerblue;
+    color:black;
+}
+.contact.right.frm{
+display: flex;
+flex-direction: column;
+padding:20px;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+
+
+footer{
+    background-color:brown;
+    display: flex;
+    color: cornsilk;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+
+}
+footer ul a{
+    text-decoration: none;
+    color:darkgoldenrod;
+    font-size: .9em;
+    margin-left: 20px;
+}
